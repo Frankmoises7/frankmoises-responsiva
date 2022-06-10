@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="es">
+
 <head>
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -11,41 +12,49 @@
   <link rel="stylesheet" href="css/main.css">
   <link rel="stylesheet" href="css/navbar.css">
   <link rel="stylesheet" href="css/profile.css">
+  <link rel="stylesheet" href="css/footer.css">
+  <link rel="stylesheet" href="css/photos.css">
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/normalize.css@8.0.1/normalize.min.css">
+  <script src="https://kit.fontawesome.com/b9b867f88c.js" crossorigin="anonymous"></script>
   <script defer src="js/app.js"></script>
 </head>
-<body>
-  <header class="topheader">
-    <nav class="topnav">
-      <a href="#" class="logo">
-        <h2>< FM /> </h2>
-      </a>
-      <button class="open-menu" aria-label="Abrir Menú">
-        <img src="/img/nav-bar/boton-abrir2.png" alt="Abrir menu">
-      </button>
-      
-      <ul class="menu">
-        <button class="close-menu" aria-label="Cerrar Menú">
-          <img src="/img/nav-bar/boton-cerrar.png" alt="cerrar menu">
-        </button>
-        <li><a href="#Home"> Home </a></li>
-        <li><a href="#About"> Conóceme </a></li>
-        <li><a href="#Photos"> Fotos </a></li>
-        <li><a href="#Contact"> Contáctame </a></li>
-      </ul>
-    </nav>
-  </header>
 
-  <div class="horzontal-padding vertical-padding">
+<body>
+  <div class="nav-bar">
+    <header class="topheader">
+      <nav class="topnav">
+        <a href="#" class="logo">
+          <h2>
+            < FM />
+          </h2>
+        </a>
+        <button class="open-menu" aria-label="Abrir Menú">
+          <img src="/img/nav-bar/boton-abrir2.png" alt="Abrir menu">
+        </button>
+
+        <ul class="menu">
+          <button class="close-menu" aria-label="Cerrar Menú">
+            <img src="/img/nav-bar/boton-cerrar.png" alt="cerrar menu">
+          </button>
+          <li><a href="#Home"> Home </a></li>
+          <li><a href="#About"> Conóceme </a></li>
+          <li><a href="#Photos"> Fotos </a></li>
+          <li><a href="#Contact"> Contáctame </a></li>
+        </ul>
+      </nav>
+    </header>
+  </div>
+
+
+  <div class="wrapper">
     <section class="profile">
       <div class="profile-info">
-        <h1 class="profile-h1">Hola, soy <br> Frank Moisés</h1>
+        <h1 class="profile-h1"> <span>Hola, soy </span> <br> Frank Moisés</h1>
         <p class="profile-details">
           Tribe Coach de Les Mills Chile. <br>
           Instructor de Fitness Grupal. <br>
           Entenador Personal. <br>
-          Estudiante de Ing. de Software. 
-
+          Estudiante de Ing. de Software.
         </p>
         <button class="profile-btn">
           Descargar CV
@@ -56,5 +65,88 @@
       </div>
     </section>
   </div>
+
+  <div class="container-img ">
+    <div class="img-title">
+      <h1>Imagenes</h1>
+    </div>
+    <section class="hero-section">
+      <div class="card-grid">
+        <a class="card" href="#">
+          <div class="card__background" style="background-image: url(/img/fotos/carrusel/foto1.jpeg)"></div>
+          <div class="card__content">
+            <!--
+            <p class="card__category">Category</p>
+            <h3 class="card__heading">Example Card Heading</h3>
+            -->
+          </div>
+        </a>
+        <a class="card" href="#">
+          <div class="card__background" style="background-image: url(/img/fotos/carrusel/foto2.jpeg)">
+          </div>
+          <div class="card__content">
+          <!--
+            <p class="card__category">Category</p>
+            <h3 class="card__heading">Example Card Heading</h3>
+            -->
+          </div>
+        </a>
+        <a class="card" href="#">
+          <div class="card__background" style="background-image: url(/img/fotos/carrusel/foto3.jpeg)"> </div>
+          <div class="card__content">
+            <!--
+            <p class="card__category">Category</p>
+            <h3 class="card__heading">Example Card Heading</h3>
+            -->
+          </div>
+          </li>
+          <a class="card" href="#">
+            <div class="card__background" style="background-image: url(/img/fotos/carrusel/foto4.jpeg)"> </div>
+            <div class="card__content">
+              <!--
+            <p class="card__category">Category</p>
+            <h3 class="card__heading">Example Card Heading</h3>
+            -->
+            </div>
+          </a>
+          <a class="card" href="#">
+            <div class="card__background" style="background-image: url(/img/fotos/carrusel/foto5.jpeg)"> </div>
+            <div class="card__content">
+              <!--
+            <p class="card__category">Category</p>
+            <h3 class="card__heading">Example Card Heading</h3>
+            -->
+            </div>
+          </a>
+          <a class="card" href="#">
+            <div class="card__background" style="background-image: url(/img/fotos/carrusel/foto6.jpeg)"> </div>
+            <div class="card__content">
+              <!--
+            <p class="card__category">Category</p>
+            <h3 class="card__heading">Example Card Heading</h3>
+            -->
+            </div>
+          </a>
+          <a class="card" href="#">
+            <div class="card__background" style="background-image: url(/img/fotos/carrusel/foto7.jpeg)"> </div>
+            <div class="card__content">
+              <!--
+            <p class="card__category">Category</p>
+            <h3 class="card__heading">Example Card Heading</h3>
+            -->
+            </div>
+            </li>
+            <a class="card" href="#">
+              <div class="card__background" style="background-image: url(/img/fotos/carrusel/foto8.jpeg)"> </div>
+              <div class="card__content">
+                <!--
+            <p class="card__category">Category</p>
+            <h3 class="card__heading">Example Card Heading</h3>
+            -->
+              </div>
+            </a>
+    </section>
+  </div>
 </body>
+
 </html>

@@ -1,4 +1,9 @@
+.nav-bar {
+  margin-bottom: 100px;
+}
+
 .topheader {
+  z-index: 1000;
   position: fixed;
   left: 0;
   top: 0;
